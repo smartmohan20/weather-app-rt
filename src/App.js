@@ -1,10 +1,11 @@
 import './App.css';
+import WeatherCard from './weather-card/WeatherCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>Weather App</h2>
+        <WeatherCard />
       </header>
     </div>
   );
